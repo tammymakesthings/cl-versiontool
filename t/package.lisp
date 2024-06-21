@@ -8,4 +8,3 @@
 
 (setf prove:*default-reporter* :dot)
 (setf prove:*enable-colors* t)
-

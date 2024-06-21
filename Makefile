@@ -56,4 +56,3 @@ unittest:	$(ASD_FILE) $(LISP_FILES) $(TEST_SOURCES)
 		--quit
 
 .PHONY: help test build unittest debug clean
-

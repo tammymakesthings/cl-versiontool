@@ -9,4 +9,3 @@
 (defun version-string-valid-p (version-string))
 
 (defun vernum-valid-p (vernum))
-

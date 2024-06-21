@@ -107,4 +107,3 @@
                       (setf prove:*default-reporter* :fiveam)
                       (setf prove:*enable-colors* t)
                       (symbol-call :prove-asdf :run-test-system c))))
-
