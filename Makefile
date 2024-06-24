@@ -34,6 +34,7 @@ build:		## Build the versiontool executable
 	$(MAKE) $(PROJECT_DIR)/bin/$(EXE_NAME)
 
 $(PROJECT_DIR)/bin/$(EXE_NAME): $(ASD_FILE) $(LISP_SOURCES) $(OTHER_FILES)
+	mkdir -p $(PROJECT_DIR)/bin
 	$(LISP) \
 		--noinform \
 		--eval "(load #P\"$(PROJECT_DIR)/$(ASD_FILE)\")" \
